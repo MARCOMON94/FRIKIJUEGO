@@ -1,0 +1,2 @@
+# FRIKIJUEGO
+Juego privado
