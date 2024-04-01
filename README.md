@@ -48,6 +48,48 @@ Juego privado
     </style>
   </head>
   <body>
+<style>
+      .personaje {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.personaje img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.personaje h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.personaje .stats {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.personaje .stats div {
+  display: flex;
+  align-items: center;
+}
+
+.personaje .stats div label {
+  margin-right: 5px;
+}
+
+.personaje input[type="number"] {
+  width: 40px;
+  text-align: center;
+}
+
+    </style>
     <h1>Personajes</h1>
 
     <div class="personaje">
